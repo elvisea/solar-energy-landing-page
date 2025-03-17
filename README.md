@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SolarEnergy - Landing Page
 
-## Getting Started
+![SolarEnergy](https://solarenergy.com.br/logo.png)
 
-First, run the development server:
+Uma landing page moderna para empresa de energia solar por assinatura, desenvolvida com Next.js e Tailwind CSS.
+
+## 🌞 Sobre o Projeto
+
+SolarEnergy é uma landing page para uma empresa que oferece serviços de energia solar por assinatura, permitindo que os clientes economizem até 20% em suas contas de energia sem a necessidade de instalar painéis solares em suas residências.
+
+A página inclui:
+- Seção Hero com destaque para os principais benefícios
+- Simulador de economia personalizado
+- Seção de benefícios da energia solar
+- Explicação do processo de adesão
+- Chamada para ação (CTA)
+- Design responsivo com suporte a tema claro/escuro
+
+## 🚀 Tecnologias Utilizadas
+
+- [Next.js 15](https://nextjs.org/) - Framework React com renderização do lado do servidor
+- [React 19](https://react.dev/) - Biblioteca JavaScript para construção de interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitário
+- [Radix UI](https://www.radix-ui.com/) - Componentes de UI acessíveis e sem estilo
+- [Lucide React](https://lucide.dev/) - Ícones bonitos e consistentes
+- [Next Themes](https://github.com/pacocoursey/next-themes) - Suporte a temas para Next.js
+
+## 🛠️ Instalação e Uso
+
+### Pré-requisitos
+- Node.js 18.17 ou superior
+- pnpm 10.5.0 ou superior
+
+### Instalação
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone o repositório
+git clone https://github.com/sua-empresa/solar-energy-landing.git
+
+# Entre no diretório do projeto
+cd solar-energy-landing
+
+# Instale as dependências
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Executando o projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Desenvolvimento
+pnpm dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Produção
+pnpm build
+pnpm start
+```
 
-## Learn More
+O site estará disponível em [http://localhost:3002](http://localhost:3002).
 
-To learn more about Next.js, take a look at the following resources:
+### Docker
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O projeto também pode ser executado com Docker:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# Desenvolvimento
+pnpm dev:docker
 
-## Deploy on Vercel
+# Produção
+pnpm build:docker
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Personalização
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Cores e Temas
+
+As cores do projeto são definidas em `src/app/globals.css` usando variáveis CSS. O site suporta tema claro e escuro, que podem ser alternados pelo botão no cabeçalho.
+
+### Conteúdo
+
+Para modificar o conteúdo da página, edite os arquivos de componentes em `src/components/`.
+
+## 📱 Responsividade
+
+A landing page é totalmente responsiva e se adapta a diferentes tamanhos de tela, desde dispositivos móveis até desktops.
+
+## 🔍 SEO
+
+O projeto inclui configurações otimizadas para SEO, incluindo:
+- Meta tags personalizadas
+- Sitemap XML
+- Arquivo robots.txt
+- Esquemas JSON-LD para melhor indexação
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+## 📞 Contato
+
+Para mais informações, entre em contato através de [contato@solarenergy.com.br](mailto:contato@solarenergy.com.br).
