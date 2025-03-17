@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://solarenergy.com.br/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Diretórios específicos
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /draft/
+
+# Permitir indexação de imagens
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.svg$ 
