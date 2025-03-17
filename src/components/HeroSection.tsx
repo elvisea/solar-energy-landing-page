@@ -1,10 +1,8 @@
 'use client'
 
 import { ArrowRight, Sun, Zap, Shield } from 'lucide-react';
-import { useTheme } from 'next-themes';
 
 const HeroSection = () => {
-  const { theme } = useTheme();
 
   const scrollToSimulator = () => {
     const element = document.getElementById('simulator');
